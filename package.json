@@ -1,6 +1,6 @@
 {
   "name": "@dothq/birch",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "🌳 A extremely thin logging module for Electron",
   "main": "src/index.js",
   "scripts": {
