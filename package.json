@@ -1,5 +1,5 @@
 {
-  "name": "birch",
+  "name": "@dothq/birch",
   "version": "1.0.2",
   "description": "🌳 A extremely thin logging module for Electron",
   "main": "index.js",
