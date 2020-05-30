@@ -1,10 +1,12 @@
 {
   "name": "birch",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "🌳 A extremely thin logging module for Electron",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "prepublishOnly": "npm version patch",
+    "version": "git add .",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,5 @@
     "url": "https://github.com/dothq/birch/issues"
   },
   "homepage": "https://github.com/dothq/birch#readme",
-  "devDependencies": {
-    "typescript": "^3.9.3"
-  }
+  "devDependencies": {}
 }
