@@ -1,0 +1,23 @@
+{
+  "name": "birch",
+  "version": "1.0.1",
+  "description": "🌳 A extremely thin logging module for Electron",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dothq/birch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dothq/birch/issues"
+  },
+  "homepage": "https://github.com/dothq/birch#readme",
+  "devDependencies": {
+    "typescript": "^3.9.3"
+  }
+}
