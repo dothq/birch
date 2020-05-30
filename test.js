@@ -6,6 +6,10 @@ const getType = () => {
     return c.bold.blue(`⯅  ${isR ? "Renderer" : "Main"}`)
 }
 
-export const log = (payload) => {
+const log = (payload) => {
+    let isR = (process && process.type === 'renderer');
+
     console.log(getType(), payload)
 }
+
+log("Loading application")
